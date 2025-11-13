@@ -20,30 +20,35 @@ body {
   border-radius: 30px;
   background: #4d4d4d;
   box-shadow: 20px 20px 60px #343434, -20px -20px 60px #3b3b3b;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 .container .picture{
-    width: 170px;
+    width: 250px;
     height: 170px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 .container .picture img{
-    width: 100%;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    border: 5px solid rgb(243, 13, 13);
+    border: 5px solid rgb(0, 0, 0);
 }
 .container h1 {
   color: rgb(216, 216, 216);
+    margin: 90px 0 0 0;
+
 }
 .container p {
   color: rgb(173, 173, 173);
   font-size: 18px;
+    margin: 40px 0 0 0;
+
 }
 .container .socials{
     display: flex;
     justify-content: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 .container .socials i{
     margin: 10px;
